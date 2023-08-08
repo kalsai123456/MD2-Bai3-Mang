@@ -5,7 +5,7 @@ public class chuyendoinhietdo {
         System.out.println("Menu");
         System.out.println("1. Fahrenheit to Celsius");
         System.out.println("2. Celsius to Fahrenheit");
-        System.out.println("3. Exit");
+        System.out.println("0. Exit");
         System.out.println("Enter choice: ");
         Scanner sc = new Scanner(System.in);
         int choice = sc.nextInt();
@@ -15,7 +15,7 @@ public class chuyendoinhietdo {
                 System.out.println("Nhap vao do F:");
                 double F = sc.nextDouble();
                 double C = (5.0 / 9) * (F - 32);
-                System.out.println(F + "doF bang voi" + C + "doC");
+                System.out.println(F + "doF bang voi" + C + " doC");
             }
             case 2 -> {
                 System.out.println("Nhap vao do C:");
